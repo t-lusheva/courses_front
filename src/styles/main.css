@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+padding: 120px 0 85px 0;
+border-bottom: 1px solid #d0cfcf;
+}
+
+.header_title {
+ font-family: Arial;
+ font-size: 50px;
+ font-weight: normal;
+ text-transform: uppercase;
+ color: #414142;
+ margin: 0;
+ letter-spacing: 2.5px;
+}
+
+.header_subtitle {
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: normal;
+    color: #414142;   
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts_item {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+.contacts_link {
+    color: #9d9fa2;
+    text-decoration: none;
+}
+
+.header_contacts {
+    margin-top: 35px;
+    padding: 0;
+}
+
+.main {
+    padding: 40px 0 510px 0;
+    
+}
+
+.main_left, .main_right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main_left {
+    width: 425px;
+}
+
+.main_right {
+    width: 820px;
+    box-sizing: border-box;
+    padding-left: 65px;    
+}
+
+.main_avatar {
+    margin-bottom: 30px;
+}
+
+.personal-info_title {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #f3c915;
+    font-family: arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #414142;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.personal-info_text {
+    font-family: arial;
+    font-size: 18px;
+    color: #414142;
+    margin: 0;
+    line-height: 30px;
+}
+
+.personal-info_content {
+    margin-top: 30px;
+}
+
+.personal-info_text_bold {
+    font-weight: bold;
+}
+
+.footer {
+    height: 45px;
+    background-color: #f3c915;
+
+}
