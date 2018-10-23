@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../fonts/CenturyGothic-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -80,10 +85,10 @@ border-bottom: 1px solid #d0cfcf;
 
 .personal-info_title {
     display: inline-block;
-    padding: 10px 35px;
+    padding: 10px 37px;
     background-color: #f3c915;
     font-family: arial;
-    font-size: 23px;
+    font-size: 22.86px;
     font-weight: bold;
     color: #414142;
     margin: 0;
@@ -106,8 +111,50 @@ border-bottom: 1px solid #d0cfcf;
     font-weight: bold;
 }
 
+.experience {
+    font-family: CenturyGothic;
+    margin-top: 40px; 
+    padding: 0 0 12px 0;
+    list-style: none;
+    font-size: 19.43px;
+    letter-spacing: 1px;
+}
+
+.experience_date{
+    color: #9d9fa2;
+    margin: 0 0 20px 0;
+}
+
+.experience_position {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.experience_company {
+    margin-bottom: 22px;
+}
+
+.experience_company_border {
+    border-right: 1px solid #414042;
+    padding-right: 12px;
+    margin-right: 7px;
+   
+}
+
+.experience_company_link {
+    text-decoration: none;
+    color: #414042;
+    margin: 0;
+}
+
+.experience_description {
+    font-size: 17px;
+    color: #9d9fa2;
+    line-height: 30.73px;
+    letter-spacing: 0px;
+}
+
 .footer {
     height: 45px;
     background-color: #f3c915;
-
 }
