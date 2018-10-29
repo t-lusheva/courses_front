@@ -19,10 +19,6 @@ body {
 }
 
 .header_menu {
-    font-size: 14px;
-    color: #626262;
-    text-transform: uppercase;
-    list-style: none;
     display: inline-block;
     width: 930px;
     text-align: right;
@@ -34,6 +30,14 @@ body {
     padding-left: 100px;
 }
 
+.menu_item_link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    list-style: none;
+}
+
 .main {
     padding: 70px 70px 0 70px;
 }
@@ -41,7 +45,8 @@ body {
 .content {
     padding: 0;
     margin: 100px 0 100px 80px;
-    font-size: 0;
+    
+    word-spacing: 0;
 }
 
 .content_left, .content_right {
@@ -59,7 +64,7 @@ body {
 }
 
 .content_right {
-    width: 320px;
+    width: 319px;
     padding-left: 45px;
 }
 
@@ -84,7 +89,7 @@ body {
 
 .top-posts_list {
     margin: 0;
-    padding: 0;
+    padding-left: 25px;
 }
 
 .about-me {
@@ -99,10 +104,6 @@ body {
     font-size: 12px;
     color: rgb( 98, 98, 98 );
     line-height: 1.667;    
-}
-
-.top-posts_list {
-
 }
 
 .item_text {
@@ -122,7 +123,6 @@ body {
 }
 
 .footer {
-    height: 97px;
     background-color: #f0f0f0;
 }
 
